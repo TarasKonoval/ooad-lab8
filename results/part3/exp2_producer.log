@@ -1,0 +1,22 @@
+replaying 37851 events of 12503 payments, 2026-10-01T17:00:00Z .. 2026-10-01T23:59:56Z, speed-up x40.3, expected run 625 s
+[  10.0s] sent 731 events, at receivedAt 2026-10-01T17:06:43Z, 73.1 events/s
+[  20.0s] sent 1517 events, at receivedAt 2026-10-01T17:13:26Z, 75.8 events/s
+[  30.0s] sent 2379 events, at receivedAt 2026-10-01T17:20:09Z, 79.3 events/s
+[  40.0s] sent 3146 events, at receivedAt 2026-10-01T17:26:52Z, 78.6 events/s
+[  50.0s] sent 4039 events, at receivedAt 2026-10-01T17:33:36Z, 80.7 events/s
+[  60.0s] sent 4810 events, at receivedAt 2026-10-01T17:40:19Z, 80.1 events/s
+[  70.0s] sent 5614 events, at receivedAt 2026-10-01T17:47:02Z, 80.2 events/s
+[  80.0s] sent 6455 events, at receivedAt 2026-10-01T17:53:45Z, 80.7 events/s
+[  90.0s] sent 7270 events, at receivedAt 2026-10-01T18:00:28Z, 80.8 events/s
+[ 100.0s] sent 8164 events, at receivedAt 2026-10-01T18:07:11Z, 81.6 events/s
+[ 110.0s] sent 9041 events, at receivedAt 2026-10-01T18:13:54Z, 82.2 events/s
+[ 120.0s] sent 10034 events, at receivedAt 2026-10-01T18:20:37Z, 83.6 events/s
+[ 130.0s] sent 11016 events, at receivedAt 2026-10-01T18:27:20Z, 84.7 events/s
+[ 140.0s] sent 11984 events, at receivedAt 2026-10-01T18:34:03Z, 85.6 events/s
+[ 150.0s] sent 12895 events, at receivedAt 2026-10-01T18:40:46Z, 86.0 events/s
+[ 160.0s] sent 13759 events, at receivedAt 2026-10-01T18:47:29Z, 86.0 events/s
+[ 170.0s] sent 14675 events, at receivedAt 2026-10-01T18:54:12Z, 86.3 events/s
+[ 180.0s] sent 15572 events, at receivedAt 2026-10-01T19:00:55Z, 86.5 events/s
+[ 190.0s] sent 16342 events, at receivedAt 2026-10-01T19:07:38Z, 86.0 events/s
+[ 200.0s] sent 17222 events, at receivedAt 2026-10-01T19:14:21Z, 86.1 events/s
+[ 210.0s] sent 18072 events, at receivedAt 2026-10-01T19:21:04Z, 86.1 events/s

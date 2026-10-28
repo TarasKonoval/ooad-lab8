@@ -1,0 +1,7 @@
+query: 09_ctas_parquet
+state: SUCCEEDED
+execution_id: 361d4dd5-9e78-4ad0-8f41-d419eda21680
+data_scanned_bytes: 1260692423
+data_scanned_mb: 1202.29
+engine_time_ms: 9226
+total_time_ms: 9419

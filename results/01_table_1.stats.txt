@@ -1,0 +1,7 @@
+query: 01_table_1
+state: SUCCEEDED
+execution_id: fd426601-ed47-40d5-8719-4dbe247bd19c
+data_scanned_bytes: 0
+data_scanned_mb: 0.00
+engine_time_ms: 420
+total_time_ms: 498

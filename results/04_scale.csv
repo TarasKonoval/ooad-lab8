@@ -1,0 +1,2 @@
+"total_events","distinct_events","exact_duplicates","unique_invoices","late_over_60s","late_over_60s_pct","late_over_1h","late_over_1h_pct","max_lag_s","dups_across_dt","dt_not_created_date"
+"3030197","3000000","30197","1000000","60231","2.008","0","0.0","600","0","49"

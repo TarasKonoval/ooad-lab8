@@ -1,0 +1,54 @@
+# Part 3: a single-node Redpanda broker (Kafka API) and Redpanda Console (web UI).
+# Start: docker compose up -d     Stop and delete data: docker compose down -v
+name: lab8-streaming
+
+services:
+  redpanda:
+    image: docker.redpanda.com/redpandadata/redpanda:v24.2.7
+    container_name: lab8-redpanda
+    command:
+      - redpanda
+      - start
+      # Two Kafka listeners: "internal" for containers on the compose network,
+      # "external" for our Python scripts on the laptop (localhost:19092).
+      - --kafka-addr internal://0.0.0.0:9092,external://0.0.0.0:19092
+      # The addresses the broker tells clients to connect back to.
+      - --advertise-kafka-addr internal://redpanda:9092,external://localhost:19092
+      # dev-container mode: relaxed fsync and resource checks, fine for a laptop.
+      - --mode dev-container
+      # Use one CPU core and 1 GB of memory.
+      - --smp 1
+      - --memory 1G
+    ports:
+      - "19092:19092"   # Kafka API for the producer and consumer
+      - "9644:9644"     # Admin API (used by Console and rpk)
+    volumes:
+      - redpanda-data:/var/lib/redpanda/data
+    healthcheck:
+      test: ["CMD-SHELL", "rpk cluster health | grep -E 'Healthy:.+true'"]
+      interval: 5s
+      retries: 20
+
+  console:
+    image: docker.redpanda.com/redpandadata/console:v2.7.2
+    container_name: lab8-console
+    # Console reads its config from a file; we write it from an env var at start-up.
+    entrypoint: /bin/sh
+    command: -c 'echo "$$CONSOLE_CONFIG_FILE" > /tmp/config.yml; /app/console'
+    environment:
+      CONFIG_FILEPATH: /tmp/config.yml
+      CONSOLE_CONFIG_FILE: |
+        kafka:
+          brokers: ["redpanda:9092"]
+        redpanda:
+          adminApi:
+            enabled: true
+            urls: ["http://redpanda:9644"]
+    ports:
+      - "8080:8080"     # http://localhost:8080
+    depends_on:
+      redpanda:
+        condition: service_healthy
+
+volumes:
+  redpanda-data:

@@ -1,0 +1,7 @@
+query: 07_peak_hours_json
+state: SUCCEEDED
+execution_id: 3a0be3e1-9c6c-4608-bf19-928b4da0fe61
+data_scanned_bytes: 1260692423
+data_scanned_mb: 1202.29
+engine_time_ms: 6591
+total_time_ms: 6746

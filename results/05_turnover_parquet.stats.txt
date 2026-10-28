@@ -1,0 +1,7 @@
+query: 05_turnover_parquet
+state: SUCCEEDED
+execution_id: a4584908-2a68-40f5-9cc0-404f0ab99a05
+data_scanned_bytes: 6401455
+data_scanned_mb: 6.10
+engine_time_ms: 1417
+total_time_ms: 1593

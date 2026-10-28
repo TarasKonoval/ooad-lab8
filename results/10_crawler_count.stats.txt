@@ -1,0 +1,7 @@
+query: 10_crawler_count
+state: SUCCEEDED
+execution_id: 642d6580-1246-4591-a91b-8f1089d64b0d
+data_scanned_bytes: 1260692423
+data_scanned_mb: 1202.29
+engine_time_ms: 1685
+total_time_ms: 1831

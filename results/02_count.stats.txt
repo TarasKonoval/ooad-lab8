@@ -1,0 +1,7 @@
+query: 02_count
+state: SUCCEEDED
+execution_id: 970325d9-817e-4992-aad4-2914edd3cd1b
+data_scanned_bytes: 1260692423
+data_scanned_mb: 1202.29
+engine_time_ms: 2152
+total_time_ms: 2321

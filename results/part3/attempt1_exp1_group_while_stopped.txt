@@ -1,0 +1,11 @@
+GROUP        g1
+COORDINATOR  0
+STATE        Empty
+BALANCER     
+MEMBERS      0
+TOTAL-LAG    214
+
+TOPIC     PARTITION  CURRENT-OFFSET  LOG-START-OFFSET  LOG-END-OFFSET  LAG   MEMBER-ID  CLIENT-ID  HOST
+payments  0          11823           0                 11877           54                          
+payments  1          12080           0                 12146           66                          
+payments  2          11864           0                 11958           94                          

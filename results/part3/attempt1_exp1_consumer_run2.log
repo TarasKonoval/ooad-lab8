@@ -1,0 +1,63 @@
+assigned partitions [0, 1, 2]
+window 17:26-17:27 events   1 | card 0/1 0% | late so far 0
+window 17:27-17:28 events   1 |  | late so far 0
+window 17:28-17:29 events  11 | card 0/1 0% | google_pay 0/4 0% | late so far 0
+window 17:29-17:30 events  41 | apple_pay 0/4 0% | card 0/3 0% | google_pay 1/6 17% | late so far 1
+window 17:30-17:31 events  57 | apple_pay 0/6 0% | card 0/9 0% | google_pay 0/2 0% | late so far 1
+window 17:31-17:32 events  47 | apple_pay 0/2 0% | card 0/12 0% | google_pay 0/4 0% | qr 0/1 0% | late so far 2
+window 17:32-17:33 events  31 | apple_pay 1/1 100% | card 1/7 14% | google_pay 0/1 0% | late so far 3
+window 17:33-17:34 events  54 | apple_pay 0/4 0% | card 1/10 10% | google_pay 0/4 0% | late so far 4
+window 17:34-17:35 events  26 | apple_pay 0/1 0% | card 1/7 14% | google_pay 0/2 0% | late so far 4
+window 17:35-17:36 events  27 | apple_pay 1/1 100% | card 1/8 12% | late so far 5
+window 17:36-17:37 events  31 | apple_pay 0/4 0% | card 0/6 0% | google_pay 0/2 0% | late so far 6
+window 17:37-17:38 events  23 | apple_pay 0/1 0% | card 0/4 0% | google_pay 1/2 50% | late so far 7
+window 17:38-17:39 events  69 | apple_pay 0/5 0% | card 2/11 18% | google_pay 0/2 0% | qr 0/1 0% | late so far 9
+window 17:39-17:40 events  38 | apple_pay 0/2 0% | card 0/9 0% | google_pay 0/4 0% | late so far 9
+window 17:40-17:41 events  20 | apple_pay 0/1 0% | card 0/2 0% | google_pay 0/2 0% | qr 0/1 0% | late so far 10
+window 17:41-17:42 events  45 | apple_pay 0/1 0% | card 2/13 15% | late so far 10
+window 17:42-17:43 events  41 | apple_pay 0/1 0% | card 0/11 0% | google_pay 0/3 0% | qr 0/1 0% | late so far 11
+window 17:43-17:44 events  31 | apple_pay 0/2 0% | card 0/6 0% | google_pay 0/2 0% | late so far 12
+window 17:44-17:45 events  43 | apple_pay 0/1 0% | card 1/11 9% | google_pay 1/2 50% | late so far 15
+window 17:45-17:46 events  34 | apple_pay 0/1 0% | card 0/7 0% | google_pay 0/3 0% | qr 0/1 0% | late so far 15
+window 17:46-17:47 events  36 | apple_pay 0/4 0% | card 0/6 0% | google_pay 0/1 0% | qr 0/1 0% | late so far 16
+window 17:47-17:48 events  38 | apple_pay 0/1 0% | card 0/6 0% | google_pay 0/3 0% | qr 0/1 0% | late so far 17
+window 17:48-17:49 events  50 | apple_pay 0/4 0% | card 2/11 18% | google_pay 0/2 0% | late so far 18
+window 17:49-17:50 events  46 | apple_pay 0/1 0% | card 1/13 8% | google_pay 0/2 0% | late so far 18
+window 17:50-17:51 events  38 | apple_pay 0/3 0% | card 2/7 29% | google_pay 0/1 0% | late so far 18
+window 17:51-17:52 events  41 | apple_pay 1/1 100% | card 1/7 14% | google_pay 1/6 17% | qr 0/1 0% | late so far 19
+window 17:52-17:53 events  32 | apple_pay 0/3 0% | card 1/7 14% | late so far 20
+window 17:53-17:54 events  43 | apple_pay 1/5 20% | card 1/7 14% | google_pay 0/4 0% | late so far 20
+window 17:54-17:55 events  25 | apple_pay 0/3 0% | card 0/3 0% | google_pay 0/2 0% | late so far 21
+window 17:55-17:56 events 110 | apple_pay 0/3 0% | card 1/23 4% | google_pay 0/9 0% | qr 0/2 0% | late so far 2191
+window 17:56-17:57 events 107 | apple_pay 1/11 9% | card 2/15 13% | google_pay 3/6 50% | late so far 2191
+window 17:57-17:58 events 114 | apple_pay 0/6 0% | card 2/23 9% | google_pay 1/12 8% | qr 0/2 0% | late so far 2191
+window 17:58-17:59 events 136 | apple_pay 2/10 20% | card 1/29 3% | google_pay 0/2 0% | qr 0/1 0% | late so far 2194
+window 17:59-18:00 events 128 | apple_pay 0/11 0% | card 2/16 12% | google_pay 0/13 0% | late so far 2199
+window 18:00-18:01 events  96 | apple_pay 1/11 9% | card 1/17 6% | google_pay 2/9 22% | qr 0/1 0% | late so far 2200
+window 18:01-18:02 events 125 | apple_pay 1/9 11% | card 2/26 8% | google_pay 0/4 0% | late so far 2200
+window 18:02-18:03 events 135 | apple_pay 1/10 10% | card 3/28 11% | google_pay 0/4 0% | late so far 2202  ALERT: card 11%
+window 18:03-18:04 events 158 | apple_pay 1/12 8% | card 2/28 7% | google_pay 2/10 20% | qr 0/1 0% | late so far 2205
+window 18:04-18:05 events 132 | apple_pay 1/12 8% | card 0/27 0% | google_pay 0/5 0% | late so far 2206
+window 18:05-18:06 events 143 | apple_pay 2/13 15% | card 2/27 7% | google_pay 1/11 9% | qr 0/1 0% | late so far 2206
+window 18:06-18:07 events 123 | apple_pay 1/14 7% | card 4/21 19% | google_pay 0/10 0% | qr 0/1 0% | late so far 2210  ALERT: card 19%
+window 18:07-18:08 events 127 | apple_pay 0/10 0% | card 6/24 25% | google_pay 2/9 22% | late so far 2210  ALERT: card 25%
+window 18:08-18:09 events 127 | apple_pay 0/8 0% | card 1/23 4% | google_pay 1/9 11% | qr 0/1 0% | late so far 2211
+window 18:09-18:10 events 121 | apple_pay 0/9 0% | card 1/25 4% | google_pay 0/7 0% | qr 0/2 0% | late so far 2212
+window 18:10-18:11 events 142 | apple_pay 0/3 0% | card 1/29 3% | google_pay 0/10 0% | late so far 2216
+window 18:11-18:12 events 126 | apple_pay 0/7 0% | card 0/23 0% | google_pay 1/10 10% | qr 0/1 0% | late so far 2221
+window 18:12-18:13 events 138 | apple_pay 1/9 11% | card 2/28 7% | google_pay 1/9 11% | late so far 2224
+window 18:13-18:14 events 113 | apple_pay 0/10 0% | card 2/21 10% | google_pay 0/4 0% | qr 0/2 0% | late so far 2225
+window 18:14-18:15 events 149 | apple_pay 0/10 0% | card 0/27 0% | google_pay 1/9 11% | qr 0/2 0% | late so far 2227
+window 18:15-18:16 events 137 | apple_pay 1/12 8% | card 2/30 7% | google_pay 0/8 0% | qr 0/1 0% | late so far 2227
+window 18:16-18:17 events 137 | apple_pay 1/14 7% | card 2/25 8% | google_pay 0/7 0% | qr 0/1 0% | late so far 2228
+window 18:17-18:18 events 137 | apple_pay 0/11 0% | card 1/17 6% | google_pay 1/11 9% | qr 0/3 0% | late so far 2231
+window 18:18-18:19 events 154 | apple_pay 3/15 20% | card 3/23 13% | google_pay 1/9 11% | qr 0/3 0% | late so far 2237  ALERT: card 13%
+window 18:19-18:20 events 150 | apple_pay 0/11 0% | card 4/29 14% | google_pay 0/13 0% | qr 0/1 0% | late so far 2240  ALERT: card 14%
+window 18:20-18:21 events 120 | apple_pay 0/11 0% | card 3/20 15% | google_pay 0/4 0% | qr 0/1 0% | late so far 2241  ALERT: card 15%
+window 18:21-18:22 events 158 | apple_pay 1/11 9% | card 1/32 3% | google_pay 1/10 10% | late so far 2242
+window 18:22-18:23 events 150 | apple_pay 0/8 0% | card 2/33 6% | google_pay 0/10 0% | late so far 2243
+window 18:23-18:24 events 125 | apple_pay 1/12 8% | card 1/19 5% | google_pay 0/10 0% | qr 0/1 0% | late so far 2246 (closed at shutdown)
+window 18:24-18:25 events 131 | apple_pay 1/13 8% | card 0/18 0% | google_pay 2/9 22% | qr 0/1 0% | late so far 2246 (closed at shutdown)
+window 18:25-18:26 events 142 | apple_pay 1/11 9% | card 0/23 0% | google_pay 2/11 18% | late so far 2246 (closed at shutdown)
+revoked partitions [0, 1, 2]
+summary: received 7433, duplicates 76, late rejected 2246, accepted 5111, windows 60, alerts 6

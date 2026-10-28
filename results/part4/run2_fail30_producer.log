@@ -1,0 +1,17 @@
+fail-rate 30%: turned 836 success events into failures
+replaying 9000 events of 2995 payments, 2026-10-01T18:30:00Z .. 2026-10-01T19:39:47Z, speed-up x28.0, expected run 150 s
+[  10.0s] sent 633 events, at receivedAt 2026-10-01T18:34:40Z
+[  20.0s] sent 1285 events, at receivedAt 2026-10-01T18:39:16Z
+[  30.0s] sent 1885 events, at receivedAt 2026-10-01T18:44:00Z
+[  40.1s] sent 2466 events, at receivedAt 2026-10-01T18:48:41Z
+[  50.1s] sent 3082 events, at receivedAt 2026-10-01T18:53:21Z
+[  60.2s] sent 3784 events, at receivedAt 2026-10-01T18:57:59Z
+[  70.2s] sent 4335 events, at receivedAt 2026-10-01T19:02:43Z
+[  80.3s] sent 4855 events, at receivedAt 2026-10-01T19:07:24Z
+[  90.3s] sent 5519 events, at receivedAt 2026-10-01T19:12:04Z
+[ 100.3s] sent 6072 events, at receivedAt 2026-10-01T19:16:44Z
+[ 110.3s] sent 6661 events, at receivedAt 2026-10-01T19:21:24Z
+[ 120.4s] sent 7184 events, at receivedAt 2026-10-01T19:26:05Z
+[ 130.4s] sent 7770 events, at receivedAt 2026-10-01T19:30:46Z
+[ 140.6s] sent 8406 events, at receivedAt 2026-10-01T19:35:25Z
+done in 150.0 s: sent 9000, retried 0, failed 0, 20.0 payments/s

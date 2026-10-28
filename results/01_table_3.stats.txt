@@ -1,0 +1,7 @@
+query: 01_table_3
+state: SUCCEEDED
+execution_id: 402b7381-d40f-4438-a9e9-6261179850ca
+data_scanned_bytes: 0
+data_scanned_mb: 0.00
+engine_time_ms: 4007
+total_time_ms: 4240

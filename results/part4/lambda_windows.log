@@ -1,0 +1,5 @@
+window 2026-10-28T20:42:00Z..2026-10-28T20:43:00Z events 1895 dup 19 | apple_pay 11/162 7% | card 12/345 3% | google_pay 6/108 6% | qr 0/12 0%
+window 2026-10-28T20:43:00Z..2026-10-28T20:44:00Z events 3531 dup 37 | apple_pay 14/282 5% | card 32/652 5% | google_pay 12/221 5% | qr 2/24 8%
+window 2026-10-28T20:44:00Z..2026-10-28T20:45:00Z events 3673 dup 31 | apple_pay 21/284 7% | card 59/682 9% | google_pay 19/237 8% | qr 1/23 4%
+window 2026-10-28T20:45:00Z..2026-10-28T20:46:00Z events 3723 dup 43 | apple_pay 91/311 29% | card 235/680 35% | google_pay 77/236 33% | qr 4/18 22%  ALERT: apple_pay: 91 of 311 payments failed (29%); card: 235 of 680 payments failed (35%); google_pay: 77 of 236 payments failed (33%)
+window 2026-10-28T20:46:00Z..2026-10-28T20:47:00Z events 3331 dup 46 | apple_pay 97/282 34% | card 211/616 34% | google_pay 62/184 34% | qr 14/28 50%  ALERT: apple_pay: 97 of 282 payments failed (34%); card: 211 of 616 payments failed (34%); google_pay: 62 of 184 payments failed (34%); qr: 14 of 28 payments failed (50%)

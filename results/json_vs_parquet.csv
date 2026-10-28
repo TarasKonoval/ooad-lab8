@@ -1,0 +1,4 @@
+query,json_scanned_bytes,json_total_ms,parquet_scanned_bytes,parquet_total_ms,scan_ratio,time_ratio
+05_turnover,1260692423,3505,6401455,1593,197,2.2
+06_failure_rate,1260692423,3359,667706,1124,1888,3.0
+07_peak_hours,1260692423,6746,6554299,2344,192,2.9

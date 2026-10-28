@@ -1,0 +1,7 @@
+query: 04_scale
+state: SUCCEEDED
+execution_id: 04674468-a85e-46aa-9924-1b573472e74f
+data_scanned_bytes: 5042769692
+data_scanned_mb: 4809.16
+engine_time_ms: 4221
+total_time_ms: 4426

@@ -1,0 +1,7 @@
+query: 01_table_2
+state: SUCCEEDED
+execution_id: b1d29919-660a-4c2d-a6ec-7beba1e4a0a3
+data_scanned_bytes: 0
+data_scanned_mb: 0.00
+engine_time_ms: 360
+total_time_ms: 487

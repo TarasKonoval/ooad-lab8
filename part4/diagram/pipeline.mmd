@@ -1,0 +1,25 @@
+%% Part 4: streaming in the cloud. Render: docker run --rm -u "$(id -u):$(id -g)" -v "$PWD":/data minlag/mermaid-cli:11.4.2 -i pipeline.mmd -o pipeline.svg
+flowchart LR
+    data[("part3/data<br/>events-2026-10-01.jsonl")]
+    prod["producer_kinesis.py<br/>replay by receivedAt, ~20 payments/s<br/>put_records, key = invoiceId<br/>--fail-rate"]
+    kds[["Kinesis Data Stream<br/>ooad-lab8-payments<br/>PROVISIONED, 1 shard, 24 h"]]
+
+    subgraph batch["(a) storage road"]
+        fh["Firehose<br/>ooad-lab8-payments-raw<br/>buffer 60 s / 5 MB"]
+        s3[("S3 ooad-lab8-669977209400<br/>raw/dt=YYYY-MM-DD/<br/>JSON Lines")]
+        ath["Athena<br/>lab8.payments_stream<br/>partition projection on dt"]
+    end
+
+    subgraph rt["(b) real-time road"]
+        esm{{"Event source mapping<br/>tumbling window 60 s<br/>(arrival time), batch 500"}}
+        lam["Lambda ooad-lab8-failure-alerts<br/>dedup, failure share per paymentMethod<br/>alert if &gt; 10% and &ge; 20 payments"]
+        sns(["SNS topic<br/>ooad-lab8-failure-alerts"])
+        mail["Email"]
+        cw["CloudWatch Logs<br/>one line per window"]
+    end
+
+    data --> prod --> kds
+    kds --> fh --> s3 --> ath
+    kds --> esm --> lam
+    lam -->|"share &gt; 10%"| sns --> mail
+    lam --> cw

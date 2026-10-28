@@ -1,0 +1,7 @@
+query: 07_peak_hours_parquet
+state: SUCCEEDED
+execution_id: 5f40a109-633d-42ee-bf23-70d776c0e95b
+data_scanned_bytes: 6554299
+data_scanned_mb: 6.25
+engine_time_ms: 1968
+total_time_ms: 2344

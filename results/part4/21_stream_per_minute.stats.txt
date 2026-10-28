@@ -1,0 +1,7 @@
+query: 21_stream_per_minute
+state: SUCCEEDED
+execution_id: 4d6f5495-38ba-4847-bf16-60583f6f9a01
+data_scanned_bytes: 7523513
+data_scanned_mb: 7.17
+engine_time_ms: 754
+total_time_ms: 980
