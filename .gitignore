@@ -1,0 +1,15 @@
+# Secrets and personal notes
+.env
+notes/
+
+# Part 3: local virtualenv and downloaded dataset (40 MB, re-download from S3)
+part3/data/
+part3/.venv/
+__pycache__/
+
+# Part 4: Terraform state, providers, build output and the variables file with the alert email
+part4/infra/.terraform/
+part4/infra/*.tfstate
+part4/infra/*.tfstate.*
+part4/infra/build/
+part4/infra/terraform.tfvars
