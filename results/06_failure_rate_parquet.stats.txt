@@ -1,0 +1,7 @@
+query: 06_failure_rate_parquet
+state: SUCCEEDED
+execution_id: 647d6f72-083f-44c3-9e88-d7aecfec7d0c
+data_scanned_bytes: 667706
+data_scanned_mb: 0.64
+engine_time_ms: 967
+total_time_ms: 1124

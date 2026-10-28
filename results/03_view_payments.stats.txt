@@ -1,0 +1,7 @@
+query: 03_view_payments
+state: SUCCEEDED
+execution_id: b864ea97-7d07-4bd5-a93a-6f7078e6e60b
+data_scanned_bytes: 0
+data_scanned_mb: 0.00
+engine_time_ms: 509
+total_time_ms: 599

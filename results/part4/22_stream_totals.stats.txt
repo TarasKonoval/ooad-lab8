@@ -1,0 +1,7 @@
+query: 22_stream_totals
+state: SUCCEEDED
+execution_id: 59dbfd8d-b011-4bdf-90b6-c144604a1941
+data_scanned_bytes: 15047026
+data_scanned_mb: 14.35
+engine_time_ms: 717
+total_time_ms: 903

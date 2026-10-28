@@ -1,0 +1,7 @@
+query: 05_turnover_json
+state: SUCCEEDED
+execution_id: 0bb1b7dd-be55-42d1-aab2-c3f5bc8a40f8
+data_scanned_bytes: 1260692423
+data_scanned_mb: 1202.29
+engine_time_ms: 3323
+total_time_ms: 3505

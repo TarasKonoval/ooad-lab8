@@ -1,0 +1,7 @@
+query: 08_late_events
+state: SUCCEEDED
+execution_id: f536cc3e-97c4-4b1d-842d-b47a045884cb
+data_scanned_bytes: 1260692423
+data_scanned_mb: 1202.29
+engine_time_ms: 3191
+total_time_ms: 3384

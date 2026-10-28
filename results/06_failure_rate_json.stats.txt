@@ -1,0 +1,7 @@
+query: 06_failure_rate_json
+state: SUCCEEDED
+execution_id: 5cba35f0-20e9-47ba-8481-f32b6fd307a7
+data_scanned_bytes: 1260692423
+data_scanned_mb: 1202.29
+engine_time_ms: 3161
+total_time_ms: 3359

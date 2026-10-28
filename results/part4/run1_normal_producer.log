@@ -1,0 +1,16 @@
+replaying 9000 events of 2995 payments, 2026-10-01T17:00:00Z .. 2026-10-01T18:13:38Z, speed-up x29.5, expected run 150 s
+[  10.0s] sent 484 events, at receivedAt 2026-10-01T17:04:55Z
+[  20.1s] sent 1049 events, at receivedAt 2026-10-01T17:09:49Z
+[  30.1s] sent 1650 events, at receivedAt 2026-10-01T17:14:47Z
+[  40.2s] sent 2311 events, at receivedAt 2026-10-01T17:19:40Z
+[  50.2s] sent 2901 events, at receivedAt 2026-10-01T17:24:41Z
+[  60.3s] sent 3519 events, at receivedAt 2026-10-01T17:29:33Z
+[  70.5s] sent 4123 events, at receivedAt 2026-10-01T17:34:29Z
+[  80.5s] sent 4737 events, at receivedAt 2026-10-01T17:39:36Z
+[  90.7s] sent 5293 events, at receivedAt 2026-10-01T17:44:31Z
+[ 100.7s] sent 5901 events, at receivedAt 2026-10-01T17:49:30Z
+[ 110.7s] sent 6551 events, at receivedAt 2026-10-01T17:54:25Z
+[ 120.7s] sent 7121 events, at receivedAt 2026-10-01T17:59:18Z
+[ 130.7s] sent 7754 events, at receivedAt 2026-10-01T18:04:17Z
+[ 140.7s] sent 8417 events, at receivedAt 2026-10-01T18:09:12Z
+done in 150.0 s: sent 9000, retried 0, failed 0, 20.0 payments/s
